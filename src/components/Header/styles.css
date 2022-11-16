@@ -1,0 +1,21 @@
+.dsct-header-container {
+    background-color: var(--dsct-color-bg-primary);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsct-header-container h1 {
+    color: var(--dsct-color-font-primary);
+    font-size: 20px;
+}
+
+
+@media (min-width: 1200px) {
+    
+    .dsct-header-container h1  {
+        font-size: 24px;
+
+    }
+}
