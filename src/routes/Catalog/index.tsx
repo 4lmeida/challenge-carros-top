@@ -7,22 +7,22 @@ import Footer from "../../components/Footer";
 export default function Catalog() {
   return (
     <>
-    <header>
-      <Header />
-    </header>
+      <header>
+        <Header />
+      </header>
       <main>
-        <section className="dsct-section-padding " >
+        <section className="dsct-section-padding ">
           <div>
-            <h2 className="dsct-catalog-title-card">Venha nos visitar</h2>  
+            <h2 className="dsct-catalog-title">Venha nos visitar</h2>
           </div>
-            <div className="dsct-catalog-container">
-              <Cardcar />
-              <Cardcar />
-            </div>
+          <div className="dsct-catalog-container">
+            <Cardcar />
+            <Cardcar />
+          </div>
         </section>
         <section className="dsct-bg-comment dsct-section-padding ">
           <div>
-            <h2 className="dsct-catalog-title-card">O que estão dizendo</h2>
+            <h2 className="dsct-catalog-title">O que estão dizendo</h2>
           </div>
           <div className="dsct-catalog-container">
             <Comment />
@@ -33,10 +33,9 @@ export default function Catalog() {
           </div>
         </section>
       </main>
-      <footer >
-        <Footer /> 
+      <footer>
+        <Footer />
       </footer>
-       
     </>
   );
 }
