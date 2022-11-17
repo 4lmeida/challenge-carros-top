@@ -7,7 +7,7 @@
     align-items: center;
     border: 1px solid var(--dsct-color-font-tertiary);
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .dsct-card-container img {

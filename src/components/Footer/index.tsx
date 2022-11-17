@@ -1,0 +1,15 @@
+import "./styles.css";
+
+export default function Footer() {
+  return (
+    <div className=" dsct-bg-footer ">
+      <div className="dsct-content-footer dsct-container-footer">
+        <p>
+          <a href="#">@dscarrostop</a>
+        </p>
+        <address>Rua da pipoca, 150</address>
+      </div>
+    </div>
+
+  );
+}
