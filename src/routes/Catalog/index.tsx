@@ -7,9 +7,7 @@ import Footer from "../../components/Footer";
 export default function Catalog() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <main>
         <section className="dsct-section-padding ">
           <div>
@@ -33,9 +31,7 @@ export default function Catalog() {
           </div>
         </section>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
